@@ -46,3 +46,12 @@ var nNum2 = 7;
 console.log("Is nNum1 greater than nNum2?", nNum1 > nNum2);
 console.log("Is nNum1 less than nNum2?", nNum1 < nNum2);
 console.log("Is nNum1 equal to nNum2?", nNum1 === nNum2);
+
+// 6. Logical Operators
+let boolean1 = true;
+let boolean2 = false;
+
+console.log("boolean1 AND boolean2:", boolean1 && boolean2);
+console.log("boolean1 OR boolean2:", boolean1 || boolean2);
+console.log("NOT boolean1:", !boolean1);
+console.log("NOT boolean2:", !boolean2);
