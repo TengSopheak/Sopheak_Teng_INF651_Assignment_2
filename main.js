@@ -38,3 +38,11 @@ var absoluteValue = Math.abs(negNumber);
 console.log("Square Root:", squareRoot);
 console.log("Number Squared:", numSquared);
 console.log("Absolute Value:", absoluteValue);
+
+// 5. Boolean Logic and Comparison Operators
+var nNum1 = 14;
+var nNum2 = 7;
+
+console.log("Is nNum1 greater than nNum2?", nNum1 > nNum2);
+console.log("Is nNum1 less than nNum2?", nNum1 < nNum2);
+console.log("Is nNum1 equal to nNum2?", nNum1 === nNum2);
