@@ -27,3 +27,14 @@ const greeting = "Well, hello there!";
 console.log("Length of greeting:", greeting.length);
 console.log("First character of greeting:", greeting.charAt(0));
 console.log("Last character of greeting:", greeting.charAt(greeting.length - 1));
+
+// 4. Math Object
+var negNumber = -14;
+
+var squareRoot = Math.sqrt(negNumber);
+var numSquared = Math.pow(negNumber, 2);
+var absoluteValue = Math.abs(negNumber);
+
+console.log("Square Root:", squareRoot);
+console.log("Number Squared:", numSquared);
+console.log("Absolute Value:", absoluteValue);
