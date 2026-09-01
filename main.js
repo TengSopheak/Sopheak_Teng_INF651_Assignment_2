@@ -55,3 +55,10 @@ console.log("boolean1 AND boolean2:", boolean1 && boolean2);
 console.log("boolean1 OR boolean2:", boolean1 || boolean2);
 console.log("NOT boolean1:", !boolean1);
 console.log("NOT boolean2:", !boolean2);
+
+// 7. Using Template Literals
+let personFirstName = "Sopheak";
+let personLastName = "Teng";
+let greetingMessage = `Hello ${personFirstName} ${personLastName}, welcome.`;
+
+console.log(greetingMessage);
