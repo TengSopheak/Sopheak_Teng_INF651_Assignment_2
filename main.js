@@ -20,3 +20,10 @@ console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Multiplication:", multiplication);
 console.log("Division:", division);
+
+// 3. Working with Strings
+const greeting = "Well, hello there!";
+
+console.log("Length of greeting:", greeting.length);
+console.log("First character of greeting:", greeting.charAt(0));
+console.log("Last character of greeting:", greeting.charAt(greeting.length - 1));
